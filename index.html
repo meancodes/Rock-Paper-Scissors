@@ -44,6 +44,10 @@
       cursor: pointer;
     }
 
+    .hands div:hover {
+      opacity: 0.5;
+    }
+
     .hands p {
       border: 3px solid white;
       border-radius: 50%;
@@ -54,6 +58,16 @@
     .hands button {
       margin-bottom: 0px;
       cursor: pointer;
+    }
+    
+    button:hover{
+      opacity: 0.5;
+    }
+    
+    button:active{
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
     }
 
     .result {
@@ -77,11 +91,15 @@
       margin-top: 70px;
       border-radius: 50px;
     }
-
-    .calculator{
-      text-align: left;
-      margin-top: 100px;
-      font-size: 12px;
+    
+    .foot {
+        margin-top: 100px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    
+    .foot a{
+        text-decoration: none;
     }
 
   </style>
@@ -171,9 +189,9 @@
   " class="reset-score-button">
     Reset Score
   </button>
-
-  <p class="calculator">
-    <a href="calculator.html" style="color: magenta;">Click here</a> to see the final version of the Calculator project.
+  
+  <p class="foot">
+    Made with love and perseverance by <a href="calculator.html" style="color: magenta;">Ben&#9996</a>. 
   </p>
   
   <script>
